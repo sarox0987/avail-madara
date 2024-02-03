@@ -133,7 +133,6 @@ func invokeTx(a *account.Account) {
 		recipient, err := utils.HexToFelt("0x054649B7bF9e490E7098265895af70E6fB7DD7e6610E605f9eC27C8afE8b343b")
 		if err != nil {
 			panic(err.Error())
-			continue
 		}
 
 		amount := utils.BigIntToFelt(big.NewInt(1))
